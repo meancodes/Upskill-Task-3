@@ -10,6 +10,7 @@ body{
     background-image: url('images/art.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
