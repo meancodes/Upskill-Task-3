@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+    <title>Forms Task</title>
+</head>
+
+<body>
+    <form>
+        <div id="form">
+            <div class="summary">
+                <label for="name">Full Name <span style="color: red;">*</span></label>
+                <input type="text" name="fullName" id="name" placeholder="Enter your names" required>
+            </div>
+            
+            <div class="summary">
+                <label for="email">Email Address <span style="color: red;">*</span></label>
+                    <input type="email" name="fullName" id="name" placeholder="Enter your email" required>                                                  
+            </div>
+            
+            <div class="summary">
+                <label for="name">Age <span style="color: red;">*</span></label>
+                <input type="text" name="" id="name" placeholder="Enter your age" required>
+            </div>
+            
+            <div class="summary">
+                <label for="option">Which option best describes you? <span style="color: red;">*</span></label>
+                <select id="option" required>
+                    <option>Student</option>
+                    <option>Employed</option>
+                    <option>Self Employed</option>
+                    <option>Business Owner</option>
+                    <option>Retired</option>
+                </select>
+            </div>
+            
+            <div class="summary radio">
+                <label for="radio">Would you recommend Genesys Upskill to a friend?</label>
+                <div>
+                    <input type="radio" name="radio" id="radio">
+                    <label for="radio">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" name="radio" id="radio">
+                    <label for="radio">No</label>
+                </div>
+                <div>
+                    <input type="radio" name="radio" id="radio">
+                    <label for="radio">Maybe</label>
+                </div>
+            </div>
+            
+            <div class="summary checkbox">
+                <label for="check">Languages and frameworks known (check all that applies)</label>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">C</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">C++</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">C#</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Java</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Python</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">JavaScript</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">React</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Angular</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">DJango</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Spring</label>
+                </div>
+            </div>
+            
+            <div class="summary textarea">
+                <label for="textarea">Any comments or suggestions?</label>
+                <textarea id="textarea" placeholder="Enter comments here" rows="5" required></textarea>
+            </div>
+            
+        <button>Submit</button>                
+        </div>
+    </form>
+</body>
+</html>
