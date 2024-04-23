@@ -14,14 +14,19 @@ body{
     color: #fff;
 }
 
+header{
+    margin-top: 20px;
+    text-align: center;
+}
+
 form{
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
     background-color: #ffffff25;
 }
 
 #form{
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 #form label{
